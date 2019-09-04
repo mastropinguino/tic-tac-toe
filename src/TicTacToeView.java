@@ -27,10 +27,10 @@ public class TicTacToeView extends JFrame
     //----------------------------------------------------------//
 
     // General.
-    private final String   APP_TITLE           = "TIC-TAC-TOE";
+    private final String   APP_TITLE           = "My TIC-TAC-TOE";
     private final String   APP_FONT            = "Sans Serif";
-    private final int      APP_WIDTH           = 400;
-    private final int      APP_HEIGHT          = 650;
+    private final int      APP_WIDTH           = 500;
+    private final int      APP_HEIGHT          = 750;
     private final int      APP_PADDING         = 25;
     // Color scheme.
     private final Color    BG_COLOR            = Color.WHITE;
@@ -45,7 +45,7 @@ public class TicTacToeView extends JFrame
     private final Color    TIC_TAC_BLUE_3      = Color.decode( "#5AADE3" );  // press
     private final Color    TIC_TAC_GRAY        = Color.decode( "#7F8C9A" );
     // FSU title bar.
-    private final String   TITLE_TEXT          = "Tic-Tac-Toe";
+    private final String   TITLE_TEXT          = "My Tic-Tac-Toe";
     private final Color    TITLE_COLOR         = TIC_TAC_GREEN;
     private final int      TITLE_FONT_SIZE     = 35;
     private final int      TITLE_TOP_PAD       = 10;
@@ -58,7 +58,9 @@ public class TicTacToeView extends JFrame
     private final Color    GAME_LINE_COLOR     = TIC_TAC_GREEN;
     private final Color    GAME_HOVER_COLOR    = BG_COLOR_2;
     // Game status label
-    private final String   STATUS_TEXT         = "X muove per iniziare la partita";
+    
+    private final String   STATUS_TEXT         = "Piazza la X per iniziare";
+
     private final int      STATUS_FONT_SIZE    = 20;
     private final Color    STATUS_COLOR        = TIC_TAC_NAVY;
     private final int      STATUS_TOP_PAD      = 30;
@@ -68,11 +70,13 @@ public class TicTacToeView extends JFrame
     private final int      BTN_HGT             = 125;
     private final int      BTN_FONT_SIZE       = 16;
     private final Color    BTN_TEXT_COLOR      = Color.WHITE;
+
     private final String   NEW_GAME_BTN_TEXT   = "Avvia nuova partita";
     private final Color    RESET_BG_COLOR      = TIC_TAC_RED;
     private final Color    RESET_BG_HOVER      = TIC_TAC_RED_2;
     private final Color    RESET_BG_PRESS      = TIC_TAC_RED_3;
-    private final String   GAME_MODE_BTN_TEXT  = "Cambia modalità";
+    private final String   GAME_MODE_BTN_TEXT  = "Cambia modalitï¿½";
+
     private final Color    OPPONENT_BG_COLOR   = TIC_TAC_BLUE;
     private final Color    OPPONENT_BG_HOVER   = TIC_TAC_BLUE_2;
     private final Color    OPPONENT_BG_PRESS   = TIC_TAC_BLUE_3;
