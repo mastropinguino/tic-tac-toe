@@ -19,17 +19,18 @@ public class TicTacToeController
     //    Customization of the update messages can be done here.          // 
     //--------------------------------------------------------------------//
 
-    private final String  STATUS_START        = "Muovi X per iniziare il gioco";
-    private final String  STATUS_CATS         = "Cat sta giocando";
-    private final String  STATUS_X_WINS       = "X ha vinto!!!";
+
+    private final String  STATUS_START        = "X muove per iniziare la partita";
+    private final String  STATUS_CATS         = "Pareggio!";
+    private final String  STATUS_X_WINS       = "X ha vinto!";
     private final String  STATUS_O_WINS       = "O ha vinto!";
     private final String  STATUS_X_MOVES      = "X muove";
     private final String  STATUS_O_MOVES      = "O muove";
-    private final String  STATUS_CP_MOVES     = "Computer ...";
+    private final String  STATUS_CP_MOVES     = "Computer sta elaborando la mossa...";
     private final String  OPPONENT_MODE_2P    = "2 giocatori";
-    private final String  OPPONENT_MODE_EASY  = "Computer (Facile)";
-    private final String  OPPONENT_MODE_HARD  = "Computer (Difficile)";
-
+    private final String  OPPONENT_MODE_EASY  = "Computer Facile";
+    private final String  OPPONENT_MODE_HARD  = "Computer Difficile";
+  
     //------------------------------//
     //    TIC-TAC-TOE CONTROLLER    //
     //------------------------------//

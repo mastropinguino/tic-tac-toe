@@ -58,7 +58,9 @@ public class TicTacToeView extends JFrame
     private final Color    GAME_LINE_COLOR     = TIC_TAC_GREEN;
     private final Color    GAME_HOVER_COLOR    = BG_COLOR_2;
     // Game status label
+    
     private final String   STATUS_TEXT         = "Piazza la X per iniziare";
+
     private final int      STATUS_FONT_SIZE    = 20;
     private final Color    STATUS_COLOR        = TIC_TAC_NAVY;
     private final int      STATUS_TOP_PAD      = 30;
@@ -68,11 +70,13 @@ public class TicTacToeView extends JFrame
     private final int      BTN_HGT             = 125;
     private final int      BTN_FONT_SIZE       = 16;
     private final Color    BTN_TEXT_COLOR      = Color.WHITE;
-    private final String   NEW_GAME_BTN_TEXT   = "Nuova partita";
+
+    private final String   NEW_GAME_BTN_TEXT   = "Avvia nuova partita";
     private final Color    RESET_BG_COLOR      = TIC_TAC_RED;
     private final Color    RESET_BG_HOVER      = TIC_TAC_RED_2;
     private final Color    RESET_BG_PRESS      = TIC_TAC_RED_3;
-    private final String   GAME_MODE_BTN_TEXT  = "Cambia Modalità";
+    private final String   GAME_MODE_BTN_TEXT  = "Cambia modalit�";
+
     private final Color    OPPONENT_BG_COLOR   = TIC_TAC_BLUE;
     private final Color    OPPONENT_BG_HOVER   = TIC_TAC_BLUE_2;
     private final Color    OPPONENT_BG_PRESS   = TIC_TAC_BLUE_3;
