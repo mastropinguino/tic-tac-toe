@@ -58,7 +58,7 @@ public class TicTacToeView extends JFrame
     private final Color    GAME_LINE_COLOR     = TIC_TAC_GREEN;
     private final Color    GAME_HOVER_COLOR    = BG_COLOR_2;
     // Game status label
-    private final String   STATUS_TEXT         = "X moves to start the game";
+    private final String   STATUS_TEXT         = "X muove per iniziare la partita";
     private final int      STATUS_FONT_SIZE    = 20;
     private final Color    STATUS_COLOR        = TIC_TAC_NAVY;
     private final int      STATUS_TOP_PAD      = 30;
@@ -68,11 +68,11 @@ public class TicTacToeView extends JFrame
     private final int      BTN_HGT             = 125;
     private final int      BTN_FONT_SIZE       = 16;
     private final Color    BTN_TEXT_COLOR      = Color.WHITE;
-    private final String   NEW_GAME_BTN_TEXT   = "Start New Game";
+    private final String   NEW_GAME_BTN_TEXT   = "Avvia nuova partita";
     private final Color    RESET_BG_COLOR      = TIC_TAC_RED;
     private final Color    RESET_BG_HOVER      = TIC_TAC_RED_2;
     private final Color    RESET_BG_PRESS      = TIC_TAC_RED_3;
-    private final String   GAME_MODE_BTN_TEXT  = "Change Mode";
+    private final String   GAME_MODE_BTN_TEXT  = "Cambia modalità";
     private final Color    OPPONENT_BG_COLOR   = TIC_TAC_BLUE;
     private final Color    OPPONENT_BG_HOVER   = TIC_TAC_BLUE_2;
     private final Color    OPPONENT_BG_PRESS   = TIC_TAC_BLUE_3;
@@ -82,7 +82,7 @@ public class TicTacToeView extends JFrame
     private final int      CREDITS_FONT_SIZE   = 12;
     private final int      CREDITS_LABEL_HGT   = 45;
     // Opponent mode label
-    private final String   OPPONENT_MODE_TEXT  = "2 player";
+    private final String   OPPONENT_MODE_TEXT  = "2 giocatori";
     private final Color    OPPONENT_MODE_COLOR = TIC_TAC_NAVY;
 
     //------------------------//
